@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -26,13 +27,27 @@
             padding: 10px;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
         .num {
             text-align: right;
+        }
+
+        p {
+            width: 500px;
         }
     </style>
 </head>
@@ -68,5 +83,7 @@
                 <td class="num">0000</td>
             </tr>
         </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nisi quisquam rerum at fugit, nam sunt nulla sapiente ipsa illum perferendis omnis eum, non itaque impedit, sint quia atque dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dicta debitis minima repellendus numquam illum eaque nisi rem sed, odio praesentium reiciendis aut quam necessitatibus doloribus est ullam ut! Dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laudantium doloremque similique? Qui obcaecati neque officia in deserunt magni amet beatae earum assumenda, quis cupiditate unde impedit omnis quaerat tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nobis dolor iusto et deleniti maiores in optio fugit, cupiditate ipsam nemo tempore incidunt omnis magnam beatae labore aliquid ipsum quod Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, enim! Beatae placeat nesciunt molestias consequatur repudiandae soluta provident perferendis, asperiores veritatis, dolor, magni aspernatur. Velit commodi beatae necessitatibus voluptatem dolor?lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae iusto molestiae. Odit sed nulla autem expedita ipsam illo numquam. Modi magni sunt ad doloremque dicta ipsam libero nobis. Numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim ducimus cum asperiores voluptas soluta qui ipsum ut nulla itaque quaerat sunt optio vitae, sapiente consectetur nam, perferendis, libero ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid nobis laborum odit est voluptatibus cum fugiat blanditiis nulla animi quaerat eius minus nisi, error ipsa ea. Expedita, temporibus. Soluta, quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus illum, in voluptate natus blanditiis qui illo voluptatem cumque, iusto perferendis cupiditate incidunt velit nemo rem odio sit quos consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta eum libero vero ipsa perferendis, fugit nam quos, saepe amet expedita ipsam velit sed itaque quo laudantium temporibus mollitia repellendus sunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam architecto, inventore nostrum earum illum natus quibusdam nisi, in perspiciatis omnis necessitatibus tempora quasi non sed exercitationem placeat unde nobis dolorem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto eveniet placeat laudantium, officia expedita molestias ratione at impedit officiis qui sunt! Sit, ullam qui? Eveniet alias ducimus dolores maxime id!</p>    
 </body>
 </html>
